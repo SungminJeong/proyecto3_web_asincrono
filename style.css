@@ -1,0 +1,50 @@
+:root{
+    --main-color: rgb(46, 46, 46);
+    --btn-color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main{
+    min-height: 80vh;
+    width: 100vw;
+}
+ul{
+    list-style: none;
+}
+
+h2,h3,h4{
+    text-transform: uppercase;
+}
+
+@media (max-width: 687px){
+    .header-container > input{
+        width: 100%;
+    }
+    header{
+        text-align: center;
+    } 
+
+    #modal{
+        border: 2px solid red;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin: 10px;
+        left: 0;
+    }
+}
+
+@media (max-width: 687px){
+    .header-container{
+        flex-direction: column;
+    }
+    #gallery img{
+        width: 100%;
+    }
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Playwrite+CU:wght@100..400&display=swap');
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid var(--main-color); 
+}
+
+header > h1 {
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 60px;
+    color: var(--main-color);
+}
+
+.header-container{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.header-container > select,
+.header-container > input{
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    padding: 10px 14px;
+    background-color: transparent;
+    font-weight: 500;
+    transition: 0.3s;
+    /*box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 0.75);*/
+    box-shadow: 3px 3px 0px 0px rgb(82, 82, 82);
+}
+
+.header-container > input{
+    width: 500px;
+}
+
+.header-container > button{
+    background-color: transparent;
+    transition: 0.3s;
+    border: none;
+}
+
+.header-container > button:hover{
+    cursor: pointer;
+}
+
+#searchIcon{
+    width: 45px;
+    height: 45px;
+}
