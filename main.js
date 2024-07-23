@@ -77,6 +77,7 @@ document.querySelector('#searchBtn').addEventListener('click', () => {
 	const selectValue = document.querySelector('#count').value;
 	const order = document.querySelector('#order').value;
 	getPhotos(inputValue, selectValue, order);
+	document.querySelector('#recomend').innerHTML = "";
 	document.querySelector('#searchInput').focus();
 	document.querySelector("#message").innerHTML = `${inputValue}`;
 	document.querySelector('#searchInput').value = "";
